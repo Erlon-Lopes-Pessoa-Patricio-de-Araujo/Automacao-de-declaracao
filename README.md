@@ -1,15 +1,10 @@
-Claro! Aqui está o conteúdo completo do `README.md`, pronto para **copiar e colar no seu repositório do GitHub**:
-
----
-
-````markdown
 # DocWise V1 - Document Automation and Conversion Tool
 
 **DocWise** é uma aplicação desktop para automação de documentos, com foco em geração de declarações em lote, conversão entre formatos e manuseio inteligente de arquivos do Microsoft Word, PDF e Excel. A interface intuitiva e os recursos avançados tornam esta ferramenta ideal para uso em ambientes acadêmicos, administrativos ou empresariais.
 
 ---
 
-## 🌟 Funcionalidades
+# 🌟 Funcionalidades
 
 - 📃 **Geração em lote de documentos** usando modelos .docx e planilhas .xlsx.
 - 🔁 **Conversão de arquivos**:
@@ -43,10 +38,6 @@ pip install -r requirements.txt
 
 1. **Execute o programa:**
 
-```bash
-python app9corrigido.py
-```
-
 2. **Na interface:**
 
    * Selecione um modelo `.docx` com os campos personalizados (`{{Nome}}`, `{{Curso}}`, etc.).
@@ -57,7 +48,7 @@ python app9corrigido.py
 
 ---
 
-## 🔌 Integrações e Tecnologias
+# 🔌 Integrações e Tecnologias
 
 * `tkinter`: Interface gráfica
 * `pandas`: Leitura de planilhas Excel
@@ -68,8 +59,7 @@ python app9corrigido.py
 * `pytesseract` + `Pillow`: OCR para PDFs escaneados
 
 ---
-
-## 📂 Estrutura sugerida
+# 📂 Estrutura sugerida
 
 ```
 .
@@ -83,7 +73,7 @@ python app9corrigido.py
 
 ---
 
-## 📌 Recursos futuros sugeridos
+# 📌 Recursos futuros sugeridos
 
 * Suporte a mais formatos (ODT, HTML)
 * Integração com armazenamento em nuvem
@@ -92,7 +82,7 @@ python app9corrigido.py
 
 ---
 
-## 📄 Licença
+# 📄 Licença
 
 Este projeto é distribuído como software fechado. Para uso pessoal, institucional ou colaborações, entre em contato com o desenvolvedor.
 
