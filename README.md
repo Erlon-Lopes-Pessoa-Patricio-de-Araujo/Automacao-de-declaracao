@@ -24,12 +24,26 @@
 * 🔮 **Interface gráfica (GUI)** com `tkinter`.
 
 ---
+# 📋 Requisitos Técnicos
+
+| Componente | Especificação |
+|------------|---------------|
+| Sistema Operacional | Windows 10/11, Linux (testado no Ubuntu) |
+| Python | 3.8 ou superior |
+| Memória RAM | Mínimo 4GB (recomendado 8GB+) |
+| Espaço em Disco | 500MB livres |
 
 # 📊 Requisitos
 
 * **Python 3.8+**
 * **LibreOffice** instalado (opcional)
 * **Tesseract OCR** (opcional, para PDFs escaneados)
+
+* **Dependências Principais**
+```bash
+# Instalação via pip
+pip install pandas python-docx docx2pdf pdf2docx Pillow pytesseract reportlab psutil comtypes
+```
 
 Instale as dependências com:
 
@@ -65,6 +79,21 @@ Prototipo_automacao.py
    * Escolha a pasta de saída.
    * Configure o nome dos arquivos e opções extras (ZIP, subpastas).
    * Clique em **Gerar declarações** ou **Converter arquivos**.
+
+---
+
+# 💡 Dicas de Uso Avançado
+
+1. **Padrões de Nomeação**:
+   ```python
+   "Declaração_{{Nome}}_{{Matricula}}_{{Data}}.docx"
+   ```
+
+2. **Agendamento Noturno**:
+   ```python
+   # Configuração para executar às 2AM
+   Agendar Tarefa → Horário: 02:00
+   ```
 
 ---
 
@@ -134,3 +163,5 @@ Este projeto é **open-source** e pode ser usado por qualquer pessoa.
 ---
 
 > Desenvolvido para automatizar tarefas repetitivas de geração e gestão de documentos em ambientes acadêmicos e administrativos. Com foco em desempenho, confiabilidade e facilidade de uso.
+
+> Desenvolvido por **Erlon Lopes** durante estágio na UPE, combinando necessidades práticas com aprendizado técnico. Um exemplo de como soluções locais podem evoluir para ferramentas profissionais.
