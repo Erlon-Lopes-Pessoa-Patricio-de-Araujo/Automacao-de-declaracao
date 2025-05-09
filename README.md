@@ -127,7 +127,7 @@ Prototipo_automacao.py
 
 Um arquivo `.exe` está disponível para facilitar o uso sem necessidade de instalar Python ou dependências.
 
-🔗 **Link para download**: *(em breve / adicionar aqui quando hospedado)*
+🔗 **Link para download**: *(https://drive.google.com/file/d/1JAgzR4AKeKRQef-kRl4css_9-jJRqFar/view?usp=sharing)*
 
 ---
 
