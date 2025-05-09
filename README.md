@@ -1,52 +1,108 @@
-# Automacao-de-declaracao
+Claro! Aqui está o conteúdo completo do `README.md`, pronto para **copiar e colar no seu repositório do GitHub**:
 
+---
+
+````markdown
 # DocWise V1 - Document Automation and Conversion Tool
 
-**DocWise** é uma aplicação robusta para automação de documentos, com funcionalidades de geração em lote de declarações personalizadas, conversão de arquivos entre DOCX e PDF, integração com OCR para PDFs escaneados e interface gráfica amigável baseada em `Tkinter`.
+**DocWise** é uma aplicação desktop para automação de documentos, com foco em geração de declarações em lote, conversão entre formatos e manuseio inteligente de arquivos do Microsoft Word, PDF e Excel. A interface intuitiva e os recursos avançados tornam esta ferramenta ideal para uso em ambientes acadêmicos, administrativos ou empresariais.
 
-## 🎯 Funcionalidades Principais
+---
 
-- 📝 **Geração de declarações em lote** a partir de modelos Word (.docx) e planilhas Excel (.xlsx).
-- 🔁 **Conversão de documentos**:
-  - DOCX → PDF
+## 🌟 Funcionalidades
+
+- 📃 **Geração em lote de documentos** usando modelos .docx e planilhas .xlsx.
+- 🔁 **Conversão de arquivos**:
+  - DOCX → PDF (via Word ou LibreOffice)
   - PDF → DOCX (com suporte a OCR)
-- 🧠 **Detecção automática de placeholders** no modelo.
-- 📁 **Criação de subpastas e nomes personalizados** com base em colunas da planilha.
-- 📦 **Geração de arquivos ZIP** com os documentos gerados.
-- 🔧 **Configurações persistentes** e histórico de execuções via SQLite e JSON.
-- 🔌 **Compatibilidade com Microsoft Word e LibreOffice** (modo headless).
-- 🔍 **OCR com Tesseract** para PDF escaneado (opcional).
+- 🔍 **Detecção automática de placeholders** (`{{Nome}}`, `{{CPF}}`, etc.).
+- 📁 **Organização de saída em subpastas** com base em colunas.
+- 📅 **Agendamento de tarefas** para execução futura.
+- 🧠 **Histórico de execuções** com salvamento automático (SQLite).
+- 🧾 **Relatórios em PDF ou CSV** após o processamento.
+- 🛠️ **Compatibilidade com Word e LibreOffice** (modo headless).
+- 🖥️ **Interface gráfica (GUI)** com `tkinter`.
 
-## 🖥️ Tecnologias Utilizadas
+---
 
-- `Python 3.x`
-- `Tkinter` para interface gráfica
-- `pandas`, `docx`, `reportlab`, `pdf2docx`, `docx2pdf`, `pytesseract`, `psutil`, entre outras
-- `SQLite` para gerenciamento de histórico
-- `LibreOffice` (modo headless) para conversões alternativas
+## 📊 Requisitos
 
-## 📂 Estrutura do Projeto
+- **Python 3.8+**
+- **LibreOffice** instalado (opcional)
+- **Tesseract OCR** (opcional, para PDFs escaneados)
+
+Instale as dependências com:
 
 ```bash
+pip install -r requirements.txt
+````
+
+---
+
+## 🚀 Como usar
+
+1. **Execute o programa:**
+
+```bash
+python app9corrigido.py
+```
+
+2. **Na interface:**
+
+   * Selecione um modelo `.docx` com os campos personalizados (`{{Nome}}`, `{{Curso}}`, etc.).
+   * Carregue uma planilha `.xlsx` com os dados.
+   * Escolha a pasta de saída.
+   * Configure o nome dos arquivos e opções extras (ZIP, subpastas).
+   * Clique em **Gerar declarações** ou **Converter arquivos**.
+
+---
+
+## 🔌 Integrações e Tecnologias
+
+* `tkinter`: Interface gráfica
+* `pandas`: Leitura de planilhas Excel
+* `python-docx`: Manipulação de arquivos Word
+* `docx2pdf`, `pdf2docx`: Conversão entre DOCX e PDF
+* `reportlab`: Geração de relatórios PDF
+* `sqlite3`, `psutil`, `schedule`, `threading`, `logging`: gerenciamento e desempenho
+* `pytesseract` + `Pillow`: OCR para PDFs escaneados
+
+---
+
+## 📂 Estrutura sugerida
+
+```
 .
-├── app9corrigido.py       # Código principal da aplicação
-├── config_v4.json         # Arquivo de configuração persistente (gerado automaticamente)
-├── execution_history.db   # Histórico das execuções (gerado automaticamente)
-├── templates/             # Pasta recomendada para armazenar seus modelos .docx
-└── output/                # Pasta de saída recomendada
+├── app9corrigido.py         # Código-fonte principal
+├── config_v4.json           # Configurações persistentes
+├── execution_history.db     # Banco de dados SQLite
+├── requirements.txt         # Dependências
+├── /templates               # Modelos Word (.docx)
+└── /output                  # Arquivos gerados
+```
 
-📅 Recursos futuros sugeridos
+---
 
-Suporte a mais formatos (ODT, HTML)
+## 📌 Recursos futuros sugeridos
 
-Sincronização com nuvem
+* Suporte a mais formatos (ODT, HTML)
+* Integração com armazenamento em nuvem
+* Envio automático por e-mail
+* Tradução automática de campos
 
-Exportação direta para e-mail
+---
 
-Detecção e tradução automática de campos
+## 📄 Licença
 
-📄 Licença
+Este projeto é distribuído como software fechado. Para uso pessoal, institucional ou colaborações, entre em contato com o desenvolvedor.
 
-Este projeto é distribuído como software fechado. Para uso pessoal, institucional ou colaboração, entre em contato com o desenvolvedor.
+---
 
-Desenvolvido para automatizar tarefas repetitivas de geração e gestão de documentos em ambientes acadêmicos e administrativos. Com foco em desempenho, confiabilidade e facilidade de uso.
+> Desenvolvido para automatizar tarefas repetitivas de geração e gestão de documentos em ambientes acadêmicos e administrativos. Foco em desempenho, confiabilidade e facilidade de uso.
+
+```
+
+---
+
+Se quiser, posso gerar também um `requirements.txt` personalizado com base nas bibliotecas do seu código. Deseja isso?
+```
