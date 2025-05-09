@@ -1,0 +1,11 @@
+pandas
+python-docx
+docx2pdf
+pdf2docx
+Pillow
+pytesseract
+reportlab
+schedule
+psutil
+comtypes
+tk
