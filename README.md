@@ -34,3 +34,19 @@
 ├── execution_history.db   # Histórico das execuções (gerado automaticamente)
 ├── templates/             # Pasta recomendada para armazenar seus modelos .docx
 └── output/                # Pasta de saída recomendada
+
+📅 Recursos futuros sugeridos
+
+Suporte a mais formatos (ODT, HTML)
+
+Sincronização com nuvem
+
+Exportação direta para e-mail
+
+Detecção e tradução automática de campos
+
+📄 Licença
+
+Este projeto é distribuído como software fechado. Para uso pessoal, institucional ou colaboração, entre em contato com o desenvolvedor.
+
+Desenvolvido para automatizar tarefas repetitivas de geração e gestão de documentos em ambientes acadêmicos e administrativos. Com foco em desempenho, confiabilidade e facilidade de uso.
