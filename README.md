@@ -26,10 +26,21 @@
 - **LibreOffice** instalado (opcional)
 - **Tesseract OCR** (opcional, para PDFs escaneados)
 
-Instale as dependências com:
+As dependências:
 
 ```bash
-pip install -r requirements.txt
+pandas
+python-docx
+docx2pdf
+pdf2docx
+Pillow
+pytesseract
+reportlab
+schedule
+psutil
+comtypes
+tk
+
 ````
 
 ---
